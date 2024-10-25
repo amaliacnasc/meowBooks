@@ -42,7 +42,7 @@ import {StyleSheet} from 'react-native';
     },
     cardContainer: {
         backgroundColor: 'purple',
-        padding: 20,
+        padding: 30,
         borderRadius: 10,
         marginBottom: 20,
         shadowColor: '#000',

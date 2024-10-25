@@ -1,14 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import PageTop from './components/menu/PageTop';
 import BooksListing from './screens/bookApi/BooksListing';
+
+const Drawer = createDrawerNavigator();
+
 export default function App() {
   return (
-    <View style={styles.container}>
-     <PageTop></PageTop>
-     <BooksListing></BooksListing>
+    <NavigationContainer>
+      <Drawer.Navigator initialRouteName="BooksListing">
+        <Drawer.Screen name="BooksListing" component={BooksListing} />
+      </Drawer.Navigator>
       <StatusBar style="auto" />
-    </View>
+    </NavigationContainer>
   );
 }
 

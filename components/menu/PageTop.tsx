@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
         color: 'black',
     },
     catPicture: {
-        marginTop:20,
         marginLeft:45,
         width: 40,
         height: 40,

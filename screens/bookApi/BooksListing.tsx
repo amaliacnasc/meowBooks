@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FlatList, StyleSheet, Text, View, Image, ActivityIndicator, TextInput } from 'react-native';
 import {styles} from './bookListingStyle'
+import PageTop from '../../components/menu/PageTop';
 
 // Criando um model de livros para definir a tipagem de cada elemento do json que é puxado
 interface Book {
@@ -60,6 +61,7 @@ const BooksListing = () => {
 
     return (
         <View style={styles.content}>
+            <PageTop></PageTop>
             {isLoading ? (
                 <ActivityIndicator color="purple" size="large" style={styles.loader} />
             ) : (
