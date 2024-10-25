@@ -7,24 +7,6 @@ Bem-vindo ao projeto **Meow Cafe**! MeowBooks é um aplicativo para busca de liv
 
 ## Informações do Projeto
 
-**Nome:** meowBook  
-**Versão:** 1.0.0  
-**Entrada principal:** expo/AppEntry.js
-
-## Scripts
-
-Os seguintes scripts estão disponíveis para uso:
-
-```bash
-npm run start     # Inicia o servidor de desenvolvimento
-npm run android   # Inicia o aplicativo no Android
-npm run ios       # Inicia o aplicativo no iOS
-npm run web       # Inicia o aplicativo na web
-
-## Dependências
-
-As dependências do projeto incluem:
-
 - `@react-navigation/drawer` - ^6.7.2
 - `axios` - ^1.7.7
 - `expo` - ~51.0.28
@@ -34,10 +16,17 @@ As dependências do projeto incluem:
 - `react-native-gesture-handler` - ~2.16.1
 - `react-native-reanimated` - ~3.10.1
 
-## Dependências de Desenvolvimento
+**Nome:** meowBooks 
+**Versão:** 1.0.0  
+**Entrada principal:** App.tsx
 
-As dependências de desenvolvimento incluem:
+## Dependências 
+## Scripts
 
-- `@babel/core` - ^7.20.0
-- `@types/react` - ~18.2.45
-- `typescript` - ^5.1.3
+Os seguintes scripts estão disponíveis para uso:
+
+```bash
+npm run start     # Inicia o servidor de desenvolvimento
+npm run android   # Inicia o aplicativo no Android
+npm run ios       # Inicia o aplicativo no iOS
+npm run web       # Inicia o aplicativo na web
