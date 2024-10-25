@@ -10,11 +10,7 @@ const PageTop = () => {
                 <Text style={styles.name}>MeowBooks</Text>
             </View>
 
-            <TextInput placeholder="Digite o título do livro" style={styles.input} />
-
-            <TouchableOpacity style={styles.searchButton}>
-                <Text style={styles.searchButtonText}>Buscar Livro</Text>
-            </TouchableOpacity>
+        
         </View>
     );
 };
