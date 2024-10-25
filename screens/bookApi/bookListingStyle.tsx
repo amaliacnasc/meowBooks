@@ -5,8 +5,7 @@ import {StyleSheet} from 'react-native';
  export const styles = StyleSheet.create({
     content: {
         flex: 1,
-        marginTop: 150, 
-        padding: 10,
+        padding: 30,
     },
     loader: {
         marginTop: 50,
@@ -32,12 +31,14 @@ import {StyleSheet} from 'react-native';
         fontWeight: 'bold',
         marginBottom: 10,
         color: '#fff',
+        textTransform:'uppercase'
     },
     text: {
         fontSize: 14,
         color: '#fff',
         marginBottom: 5,
         marginTop: 5,
+        textAlign:'center'
     },
     cardContainer: {
         backgroundColor: 'purple',
